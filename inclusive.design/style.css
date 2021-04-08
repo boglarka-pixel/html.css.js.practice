@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .dots {
     font-size: 40px;
     letter-spacing: 40px;
@@ -19,4 +25,51 @@ h3>q {
 h3>p {
     color: rgb(107, 106, 106);
     font-weight: normal;
+}
+
+.stack *+* {
+    margin: 1.5rem;
+}
+
+nav {
+    margin: 1.5rem;
+}
+
+.stack>h1 {
+    margin: 1.5rem;
+}
+
+nav>a {
+    margin-right: 1.5rem;
+}
+
+article:first-child p {
+    margin: 1.5rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 20px;
+    margin: 1.5rem;
+}
+
+input,
+label,
+textarea {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+button {
+    margin: 15px auto;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+legend {
+    text-transform: uppercase;
 }
