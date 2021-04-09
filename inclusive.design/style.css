@@ -31,7 +31,7 @@ h3>p {
     margin: 1.5rem;
 }
 
-nav {
+#navbar {
     margin: 1.5rem;
 }
 
@@ -39,7 +39,7 @@ nav {
     margin: 1.5rem;
 }
 
-nav>a {
+#navbar>a {
     margin-right: 1.5rem;
 }
 
@@ -72,4 +72,85 @@ button {
 
 legend {
     text-transform: uppercase;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    width: 50%;
+}
+
+.parent {
+    margin: 1.5rem;
+}
+
+.parent>* {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10ch;
+    padding: 20px;
+}
+
+.first {
+    background-color: aquamarine;
+}
+
+.second {
+    background-color: bisque;
+}
+
+.third {
+    background-color: rgb(107, 106, 106)
+}
+
+.bar-items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.sidebar-section {
+    display: flex;
+}
+
+.sidebar {
+    margin-left: 1.5rem;
+    width: 5vw;
+    color: rgb(92, 91, 91);
+    background-color: rgb(157, 226, 226, 0.5);
+    padding: 30px;
+}
+
+.sidebar>a {
+    text-decoration: none;
+    color: rgb(83, 126, 165);
+}
+
+.sidebar>a:hover {
+    color: rgb(63, 177, 192);
+}
+
+.main-content {
+    margin-right: 1.5rem;
+    width: 70vw;
+    color: rgb(92, 91, 91);
+    padding: 30px;
+    background-color: rgb(180, 120, 120, 0.5)
+}
+
+#navbar {
+    width: 80vw;
+    background-color: rgb(238, 186, 186);
+    padding: 20px;
+}
+
+#navbar>a {
+    color: rgb(83, 126, 165);
+    text-decoration: none;
+}
+
+#navbar>a:hover {
+    color: rgb(63, 177, 192);
 }
