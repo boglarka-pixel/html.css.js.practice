@@ -1,0 +1,18 @@
+body {
+    color: white;
+    background: url(imgs/felix-besombes-MR51oU__pSM-unsplash.jpg) repeat-x fixed 40% 0, url(imgs/bas-van-der-horst-lnBqmiw9woU-unsplash.jpg) repeat-x fixed -80% 0;
+    background-color: #1a1a1a;
+    background-size: cover;
+}
+
+
+/*
+body {
+    margin: 0 auto;
+    background: url(imgs/faris-mohammed-WoN_WzB5LNE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    text-align: center;
+}
+*/
